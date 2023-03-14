@@ -1,4 +1,5 @@
 module.exports = {
+    lang: 'zh-CN',
     base: "/facer",
     title: 'Facer',
     lastUpdated: true,
@@ -48,12 +49,12 @@ module.exports = {
             // This sidebar gets displayed when user is under `config` directory.
             '/book/': [
                 {
-                    text: 'Config',
+                    text: '书籍',
                     items: [
-                        // This shows `/config/index.md` page.
-                        { text: 'Index', link: '/config/' }, // /config/index.md
-                        { text: 'Three', link: '/config/three' }, // /config/three.md
-                        { text: 'Four', link: '/config/four' } // /config/four.md
+                        // This shows `/book/index.md` page.
+                        { text: 'Index', link: '/book/' }, // /book/index.md
+                        { text: 'like', link: '/book/like' }, // /book/like.md
+                        { text: 'read', link: '/book/read' } // /book/read.md
                     ]
                 }
             ]
