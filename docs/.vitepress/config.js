@@ -9,7 +9,7 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        siteTitle: 'Facer',
+        siteTitle: '欢迎访问Facer',
         logo: '/images/logo.png',
         lastUpdatedText: '上次修改',
         outlineTitle: '页面目录',
