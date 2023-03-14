@@ -25,7 +25,7 @@ module.exports = {
                 text: "选项",
                 items: [
                     { text: "基础", link: "/blog/index" },
-                    { text: "进阶", link: "/blog/page2" }
+                    { text: "进阶", link: "/blog/article" }
                 ],
             },
 
