@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Facer~
+title: 首页
 hero:
-  name: VitePress首页吧
+  name: Facer on GitPage
   text: Vite & Vue powered static site generator.
   tagline: Lorem ipsum...
   image:
