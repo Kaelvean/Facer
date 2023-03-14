@@ -18,8 +18,8 @@ module.exports = {
         nav: [
             { text: '首页', link: "/" },
             { text: '博客', link: '/blog/' },
-            { text: '团队', link: "/page/" },
             { text: '关于', link: "/about/" },
+            { text: '团队', link: "/page/" },
             { text: '引导', link: "/guide/" },
             { text: '书籍', link: "/book/" },
             { text: '文档', link: "/document/" },
