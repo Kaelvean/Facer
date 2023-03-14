@@ -1,10 +1,2 @@
-# Facer
-a vitepress page test
-
-
-
-by YYY
-
-
-
-通过git使用github token登录并提交
+# facer by ewing
+facer项目是一个基于vitepress的网站
