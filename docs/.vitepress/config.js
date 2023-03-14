@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/Facer",
+    base: "/facer",
     title: 'Facer',
     lastUpdated: true,
     cleanUrls: true,
