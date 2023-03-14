@@ -14,19 +14,17 @@ module.exports = {
         lastUpdatedText: '上次修改',
         outlineTitle: '页面目录',
         nav: [
-            { text: "首页", link: "/" },
+            { text: '首页', link: "/" },
             { text: '博客', link: '/blog/' },
-            { text: "书籍", link: "/book/" },
-            { text: "Page", link: "/page/" },
-            { text: "小程序", link: "/articles/mini/index" },
-            { text: "关于", link: "/about/" },
+            { text: '书籍', link: "/book/" },
+            { text: '团队', link: "/page/" },
+            { text: '关于', link: "/about/" },
             { text: '指南', link: 'https://vitepress.dev/' },
             {
-                text: "开发",
+                text: "选项",
                 items: [
                     { text: "基础", link: "/blog/index" },
-                    { text: "进阶", link: "/blog/page2" },
-                    { text: "高级", link: "/articles/react/index" },
+                    { text: "进阶", link: "/blog/page2" }
                 ],
             },
 
