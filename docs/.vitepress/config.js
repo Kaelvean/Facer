@@ -22,6 +22,7 @@ module.exports = {
             { text: '引导', link: "/guide/" },
             { text: '关于', link: "/about/" },
             { text: '书籍', link: "/book/" },
+            { text: '文档', link: "/document/" },
             { text: '指南', link: 'https://vitepress.dev/' },
             {
                 text: "选项",
