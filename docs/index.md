@@ -1,40 +1,28 @@
-# Hello
-
-## 这是VitePress
-
-可以有多级目录
-
-## 这是二级目录
-
-### 这是三级目录
-
-会显示在侧边
-
-#### 四级目录怎么样？
-
-`vitepress`
-
-```java
-System.out.println("HellO VitePress! ");
-```
-
-> 引用以及
->
-> > 多级引用
-
-**粗体呢**？
-
-*斜体也可以试试*
-
-
-
-下划线______
-
 ---
-
-分割线
-
-## 右侧目录只显示到二级目录。
-
-完毕。
+layout: home
+hero:
+  name: VitePress首页吧
+  text: Vite & Vue powered static site generator.
+  tagline: Lorem ipsum...
+  image:
+    src: /images/logo.png
+    alt: VitePressLogo
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /blog/
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+---
 
