@@ -17,7 +17,6 @@ module.exports = {
         nav: [
             { text: '首页', link: "/" },
             { text: '博客', link: '/blog/' },
-            { text: '书籍', link: "/book/" },
             { text: '团队', link: "/page/" },
             { text: '关于', link: "/about/" },
             { text: '指南', link: 'https://vitepress.dev/' },
@@ -33,14 +32,14 @@ module.exports = {
 
         sidebar: {
             // This sidebar gets displayed when user is under `blog` directory.
-            '/blog/': [
+            '/guide/': [
                 {
                     text: 'Guide',
                     collapsible: true,  //是否支持折叠展开
                     collapsed: false, //是否默认折叠
                     items: [
                         // This shows `/guide/index.md` page.
-                        { text: 'Index', link: '/guide/' }, // /guide/index.md
+                        { text: '引导', link: '/guide/' }, // /guide/index.md
                         { text: 'One', link: '/guide/one' }, // /guide/one.md
                         { text: 'Two', link: '/guide/two' } // /guide/two.md
                     ]
@@ -54,7 +53,7 @@ module.exports = {
                     collapsed: false, //是否默认折叠
                     items: [
                         // This shows `/book/index.md` page.
-                        { text: 'Index', link: '/book/' }, // /book/index.md
+                        { text: '索引', link: '/book/' }, // /book/index.md
                         { text: 'like', link: '/book/like' }, // /book/like.md
                         { text: 'read', link: '/book/read' } // /book/read.md
                     ]
