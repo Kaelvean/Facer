@@ -4,9 +4,8 @@ module.exports = {
     lastUpdated: true,
     cleanUrls: true,
     head: [
-
         [
-            'link', { rel:'shortcut icon', href:'/images/favicon.ico'}
+            'link', { rel:'shortcut icon', href:'/facer/images/favicon.ico'}
         ]
     ],
     themeConfig: {
