@@ -4,7 +4,7 @@ title: 首页
 hero:
   name: Facer on GitPage
   text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  tagline: create beautiful and softable...
   image:
     src: /images/logo.png
     alt: VitePressLogo
