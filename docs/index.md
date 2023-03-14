@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Facer~
 hero:
   name: VitePress首页吧
   text: Vite & Vue powered static site generator.
