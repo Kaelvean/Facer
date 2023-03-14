@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     base: "/facer",
-    title: '欢迎访问Facer',
+    title: 'FACER',
     lastUpdated: true,
     cleanUrls: true,
     head: [
