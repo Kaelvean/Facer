@@ -4,9 +4,7 @@ module.exports = {
     lastUpdated: true,
     cleanUrls: true,
     head: [
-        [
-            'link', { rel: 'icon', href: '/images/logo.png' }
-        ],
+
         [
             'link', { rel:'shortcut icon', href:'/images/favicon.ico'}
         ]
