@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
     base: "/facer",
-    title: 'Facer',
+    title: '欢迎访问Facer',
     lastUpdated: true,
     cleanUrls: true,
     head: [
@@ -10,7 +10,7 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        siteTitle: '欢迎访问Facer',
+        siteTitle: 'Facer',
         logo: '/images/logo.png',
         lastUpdatedText: '上次修改',
         outlineTitle: '页面目录',
