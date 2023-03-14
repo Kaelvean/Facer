@@ -14,11 +14,14 @@ module.exports = {
         logo: '/images/logo.png',
         lastUpdatedText: '上次修改',
         outlineTitle: '页面目录',
+        smoothScroll: true,     // 启动页面丝滑滚动
         nav: [
             { text: '首页', link: "/" },
             { text: '博客', link: '/blog/' },
             { text: '团队', link: "/page/" },
+            { text: '引导', link: "/guide/" },
             { text: '关于', link: "/about/" },
+            { text: '书籍', link: "/book/" },
             { text: '指南', link: 'https://vitepress.dev/' },
             {
                 text: "选项",
