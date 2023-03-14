@@ -36,7 +36,7 @@ module.exports = {
             '/blog/': [
                 {
                     text: 'Guide',
-                    collapsible: true,  //是否至此展开 折叠
+                    collapsible: true,  //是否支持折叠展开
                     collapsed: false, //是否默认折叠
                     items: [
                         // This shows `/guide/index.md` page.
@@ -50,6 +50,8 @@ module.exports = {
             '/book/': [
                 {
                     text: '书籍',
+                    collapsible: true,  //是否支持折叠展开
+                    collapsed: false, //是否默认折叠
                     items: [
                         // This shows `/book/index.md` page.
                         { text: 'Index', link: '/book/' }, // /book/index.md
