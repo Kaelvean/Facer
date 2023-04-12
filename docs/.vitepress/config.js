@@ -18,12 +18,13 @@ module.exports = {
         nav: [
             { text: '首页', link: "/" },
             { text: '博客', link: '/blog/' },
-            { text: '关于', link: "/about/" },
             { text: '团队', link: "/page/" },
             { text: '引导', link: "/guide/" },
             { text: '书籍', link: "/book/" },
             { text: '文档', link: "/document/" },
             { text: '指南', link: 'https://vitepress.dev/' },
+            { text: '隐私', link: "/privacy/" },
+            { text: '关于', link: "/about/" },
             {
                 text: "选项",
                 items: [
@@ -66,18 +67,14 @@ module.exports = {
             '/document/':getSidebar()
         },
 
-        socialLinks: [{ icon: 'github', link: 'https://github.com/Kaelvean' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/yoea' }],
         footer: {
-            message: '由尤恩开发，该项目遵循 MIT 许可证',
+            message: 'F·A·C·E·R',
             copyright: 'Copyright © 2023 Ewing All Rights Reserved.'
         },
         docFooter: {
             prev: '上一篇',
             next: '下一篇'
-        },
-        editLink: {
-            pattern: 'https://github.com/Kaelvean/Facer/docs',
-            text: '在Github上编辑此页'
         },
     }
 };
